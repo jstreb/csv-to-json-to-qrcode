@@ -1,0 +1,12 @@
+The purpose of this script is to take a CSV file as an input and generate a QR Code that is a JSON string representation of that
+csv file.
+
+
+Getting started
+---------------
+Install Cairo from: http://cairographics.org/download/
+Install node.js v0.6.17 or higher.
+Install qrcode module by running "npm qrcode"
+run script with the following command node.js parse.js <csv_file_to_parse.csv>
+
+The files are saved as jpg files in the output directory using the first value of the first column of the csv file as the name of the file.
